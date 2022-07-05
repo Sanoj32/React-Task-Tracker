@@ -1,10 +1,8 @@
-
+import Header from "./components/Header"
 function App() {
-  const name = "Sanoj"
   return (
     <div className="container">
-      <h1> Hello From react</h1>
-      <h2>Hello {name}</h2>
+      <Header />
     </div>
   );
 }
